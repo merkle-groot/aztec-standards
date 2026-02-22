@@ -1,11 +1,11 @@
 pub mod test;
 
-use aztec::macros::aztec;
+use ::aztec::macros::aztec;
 
 #[aztec]
 pub contract Token {
     // aztec library
-    use aztec::{
+    use ::aztec::{
         authwit::auth::{
             assert_current_call_valid_authwit, assert_current_call_valid_authwit_public,
         },

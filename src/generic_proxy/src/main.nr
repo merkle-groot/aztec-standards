@@ -1,8 +1,8 @@
-use aztec::macros::aztec;
+use ::aztec::macros::aztec;
 
 #[aztec]
 pub contract GenericProxy {
-    use aztec::{
+    use ::aztec::{
         macros::functions::external,
         protocol::{abis::function_selector::FunctionSelector, address::AztecAddress},
     };
